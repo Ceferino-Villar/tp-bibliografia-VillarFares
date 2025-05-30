@@ -1,0 +1,1 @@
+El proyecto trata sobre una bibliografía acerca de mí. En la bibliografía explicaré cosas como: Mis comidas favoritas, comidas que me gustaría probar, información acerca de un videojuego, mi rutina, etc.
