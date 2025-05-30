@@ -2,15 +2,53 @@
 <html lang="es">
 <head>
 <title> HTML </title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="img/R.png" type="image/png">
+<style>
+    *{
+        font-family: "Courier New", monospace;
+    }
+</style>
+<style>
+    li{
+        font-family: "Times New Roman", Serif;
+    }
+</style>
+<style>
+    *{ color: orangered;}
+</style>
+<style>
+    li{ color:orange;}
+</style>
+<style>
+    ul{
+        list-style-type: square
+    }
+</style>
+<style>
+    ul {
+        background: rgb(179, 169, 169);
+        padding: 20px;
+}
+</style>
+<style>
+    ul li{
+        background: gray;
+        color: rgb(216, 178, 9);
+        margin: 5px;
+    }
+</style>
 </head>
 <body>
-    <header> Encabezado del html</header>
-    <section>
-        <p> Este es un parrafo, escrito y diseñado para rellenar espacio en el HTML asignado.</p>
+    <header> Encabezado del HTML</header>
+    <h1> Temas </h1>
+        <section>
+        <h2> Corta introducción:</h2>
+        <p> En este HTML se dara una breve descripción acerca de distintos apartados relacionados a mi, como por ejemplo una breve biografia.</p>
     </section>
-    <img src="54d857eb-2acf-46cc-ae22-dfc9d244345a.jpg" alt="" width="600" height="300">
+    <img src="img/54d857eb-2acf-46cc-ae22-dfc9d244345a.jpg" alt="" width="600" height="300">
     <p> Hace tiempo que no veo ninguna pelicula, pero puedo poner mi lista favorita de pastas: </p>
-    <ol>
+    <ul>
             <li> Cappellettis</li>
             <li> Sorrentinos</li>
             <li> Ravioles de cuatro quesos </li>
@@ -20,25 +58,30 @@
             <li> Fideos largos, los normales</li>
             <li> Fideos conito</li>
             <li> Fideos caracol</li>
-            <li> Fideos de sopa</li>
-    </ol>
+            <li> Fideos para sopa</li>
+    </ul>
     <section>
-        <p> Red Social Favorita:</p>
+        <h2> Red Social Favorita:</h2>
         <a href="https://es-la.facebook.com/"> Facebook </a>
+        <p> No uso muchas red sociales pero Facebook me resulta interesante.</p>
     </section>
     <section>
         <p> Formulario:</p>
-        <p style="color:brown"> Nombre:</p>
-        <input type="text">
         <form>
-            <p style="color:brown"> Email:</p>
-            <input type="email">
+            <p style="color:aliceblue;"> Nombre:</p>
+            <input style="background-color:gray;" type="text">
+            <p style="color:aliceblue;"> Email:</p>
+            <input style="background-color:gray;" type="email">
             <br/>
-            <button > Enviar </button>
+            <button style= "background-color:gray;" > Enviar </button>
         </form>
     </section>
      <section>
         <article style="color:orange;"> Mi nombre es Jorge Ceferino Fares Villar, naci en el año 2008, el 19 de mayo en Neuquen. En mi tiempo libre me gusta jugar a los videojuegos principalmente, la mayoria de las veces juego al llegar a casa luego de volver de la escuela, el dispositivo en el que mas juego es la computadora, aunque tambien utilizo dispositivos moviles. Me gustan las comidas saladas, como por ejemplo las milanesas, posiblemente mas que las dulces. Tengo poco conocimiento de deportes debido a que no los he practicado, tampoco jugado con frecuencia. Estudio Ingles particular los lunes de 1:10 a 2:10 de la tarde y los miercoles de 2:00 a 3:00 de la tarde.</article>
+    </section>
+    <section>
+        <h2> Videojuego Favorito</h2>
+            <p> Mi videojuego favorito se llama Half life 2, el icono del html es a su vez el icono de la saga de juegos Half life. Es un videojuego con una jugabilidad interesante y una gran historia.</p>
     </section>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/bLPv7gqhzPw?si=4z-XPqUM22hK7IXf" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <footer> Pie de pagina del html</footer>
